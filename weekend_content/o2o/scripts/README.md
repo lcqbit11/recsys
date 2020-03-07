@@ -1,0 +1,52 @@
+样本：
+    正样本：1，领取优惠券并且在15天内用券消费
+    负样本：0，领取优惠券但未在15天内用券消费
+
+特征：
+    1.历史领取优惠券数量
+    2.历史使用优惠券消费次数
+    3.历史最近一次使用券消费距今的天数
+    4.历史最近一次领取的优惠券是否消费
+    5.历史领取的所有优惠券的平均折扣率
+    6.历史领取的所有优惠券中发生消费的优惠券的平均折扣率
+    7.历史领取的所有优惠券的商家距离用户user经常活动的地点的平均距离、最远距离、最近距离
+    8.历史领取并且消费的所有优惠券的商家距离用户user经常活动的地点的平均距离、最远距离、最近距离
+
+deepFM特征：
+用户特征10个
+u_coupon_count,
+u_buy_count,
+u_buy_with_coupon,
+u_merchant_count,
+u_min_distance,
+u_max_distance,
+u_mean_distance,
+u_median_distance,
+u_use_coupon_rate,
+u_buy_with_coupon_rate,
+商户特征9个
+m_coupon_count,
+m_sale_count,
+m_sale_with_coupon,
+m_min_distance,
+m_max_distance,
+m_mean_distance,
+m_median_distance,
+m_coupon_use_rate,
+m_sale_with_coupon_rate,
+用户商户聚合特征7个
+um_count,
+um_buy_count,
+um_coupon_count,
+um_buy_with_coupon,
+um_buy_rate,
+um_coupon_use_rate,
+um_buy_with_coupon_rate
+
+discount_rate,
+discount_man,
+discount_jian,
+discount_type,
+weekday,
+weekday_type
+
