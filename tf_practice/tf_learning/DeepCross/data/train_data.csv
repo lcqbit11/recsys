@@ -1,0 +1,10 @@
+1,workclass_a|workclass_b,1,a,1,a,a,a,a,a,1,1,1,a,>50K
+3,workclass_a|workclass_b,1,a,1,a,a,a,a,a,1,1,1,a,>50K
+2,workclass_a|workclass_b,1,a,1,a,a,a,a,a,1,1,1,a,>50K
+2,workclass_a|workclass_b,1,a,1,a,a,a,a,a,1,1,1,a,>50K
+5,workclass_a|workclass_b,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
+6,workclass_a|workclass_c,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
+10,workclass_a|workclass_c,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
+24,workclass_a|workclass_c,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
+56,workclass_a|workclass_c,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
+10,workclass_a|workclass_c,1,a,1,a,a,a,a,a,1,1,1,a,<=50K
